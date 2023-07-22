@@ -1,0 +1,84 @@
+/* Basic */
+:root {}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 3px solid red;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+/* Layout */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  padding: 1rem;
+}
+
+.wrap-header {
+  height: 8rem;
+  flex: none;
+}
+
+.wrap-main {
+  flex: auto;
+}
+
+.wrap-footer {
+  height: 4rem;
+  flex: none;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Main */
+
+.main {
+  
+}
+
+
